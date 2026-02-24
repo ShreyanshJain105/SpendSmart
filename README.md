@@ -35,6 +35,7 @@ Personal finance tracker with a layered Flask REST API, a React + Vite SPA, and 
 - **Marshmallow**: 3.x (request validation)
 - **Testing**: pytest + pytest-flask
 - **Logging**: structlog (JSON logs)
+- **DataBase**: SupaBase(PostgresSql)
 
 ### Frontend
 
