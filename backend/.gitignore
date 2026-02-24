@@ -1,0 +1,11 @@
+# Git ignore — never commit secrets or build artifacts
+.env
+__pycache__/
+*.pyc
+*.pyo
+*.db
+.pytest_cache/
+.coverage
+htmlcov/
+dist/
+*.egg-info/

@@ -1,0 +1,61 @@
+############################
+# Global ignores
+############################
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*.orig
+*.log
+.vscode/
+.idea/
+
+############################
+# Python backend
+############################
+
+backend/.venv/
+backend/venv/
+backend/__pycache__/
+backend/**/__pycache__/
+backend/*.pyc
+backend/**/*.pyc
+
+# Local databases
+backend/*.db
+backend/*.sqlite
+backend/*.sqlite3
+
+# Env / secrets
+backend/.env
+
+# Coverage / test artifacts
+backend/.pytest_cache/
+backend/.coverage
+backend/htmlcov/
+
+############################
+# Node / React frontend
+############################
+
+frontend/node_modules/
+frontend/.eslintcache
+frontend/dist/
+frontend/.vite/
+
+# Frontend env files
+frontend/.env
+frontend/.env.local
+frontend/.env.*.local
+
+############################
+# Misc
+############################
+
+*.coverage
+*.DS_Store
+*.tmp
+*.bak
+
